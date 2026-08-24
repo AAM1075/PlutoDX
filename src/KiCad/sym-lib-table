@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SOM304RD-VI") (type "KiCad") (uri "${KIPRJMOD}/Symbols/SOM304RD-VI.kicad_sym") (options "") (descr ""))
+)
