@@ -1575,7 +1575,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:TPS563200"
+		(symbol "Regulator_Switching:TPS565208"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1592,7 +1592,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TPS563200"
+			(property "Value" "TPS565208"
 				(at -2.54 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1615,7 +1615,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps563200.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps565208.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1626,7 +1626,7 @@
 					)
 				)
 			)
-			(property "Description" "3A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
+			(property "Description" "5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1659,7 +1659,7 @@
 					)
 				)
 			)
-			(symbol "TPS563200_0_1"
+			(symbol "TPS565208_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -1672,7 +1672,7 @@
 					)
 				)
 			)
-			(symbol "TPS563200_1_1"
+			(symbol "TPS565208_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -2318,7 +2318,7 @@
 		)
 	)
 	(rectangle
-		(start 154.94 97.79)
+		(start 152.4 97.79)
 		(end 243.84 132.08)
 		(stroke
 			(width 0)
@@ -2330,7 +2330,7 @@
 		(uuid "14541d07-4e7e-48c5-a7d9-f842d0e56145")
 	)
 	(rectangle
-		(start 53.34 97.79)
+		(start 50.8 97.79)
 		(end 142.24 132.08)
 		(stroke
 			(width 0)
@@ -2372,7 +2372,7 @@
 	(junction
 		(at 198.12 124.46)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 0 0 0 1)
 		(uuid "1e7041d7-c8d5-4c6d-89ae-3a356370813f")
 	)
 	(junction
@@ -2382,22 +2382,22 @@
 		(uuid "26c23ef6-f819-4cc0-a1a3-16336e33fc14")
 	)
 	(junction
+		(at 179.07 38.1)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "2818c5dd-8da3-4705-836d-0517e56a03f7")
+	)
+	(junction
 		(at 96.52 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f97e5db-aba9-4000-ac50-736bc25216b2")
 	)
 	(junction
-		(at 172.72 111.76)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "2fdebe10-ed2f-4d9a-9133-25fe85b275b8")
-	)
-	(junction
-		(at 81.28 121.92)
+		(at 179.07 66.04)
 		(diameter 0)
 		(color 0 0 0 1)
-		(uuid "61b826ca-0a03-4b12-9a13-f809bbafa139")
+		(uuid "3a26cfda-af57-4354-8fb4-c6df4c36184f")
 	)
 	(junction
 		(at 161.29 60.96)
@@ -2412,13 +2412,19 @@
 		(uuid "7218d474-e7b1-4767-b14b-ea2b2700c379")
 	)
 	(junction
+		(at 194.31 38.1)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "763a7f8e-3777-44b3-b83c-8d8d92cbffa5")
+	)
+	(junction
 		(at 151.13 38.1)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "78e7c715-4de5-4dd1-92df-d930d2dff4da")
 	)
 	(junction
-		(at 58.42 111.76)
+		(at 55.88 111.76)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "79a927b7-82fd-4a47-bb92-62e4b30dc93c")
@@ -2430,27 +2436,21 @@
 		(uuid "7aeeffff-3aca-4527-8afd-575aa85c9f1c")
 	)
 	(junction
+		(at 172.72 111.76)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "850fa78f-7aef-4e60-abd5-568333af7af0")
+	)
+	(junction
 		(at 97.79 66.04)
 		(diameter 0)
 		(color 0 0 0 1)
 		(uuid "89dacf02-70fb-45f2-93b4-abe38609659d")
 	)
 	(junction
-		(at 71.12 111.76)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "92826b10-5edc-4c75-a425-d4e7e0ce1eef")
-	)
-	(junction
-		(at 182.88 121.92)
-		(diameter 0)
-		(color 0 0 0 1)
-		(uuid "935a562f-0b48-40cf-ae80-01a81b831346")
-	)
-	(junction
 		(at 118.11 106.68)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 255 0 0 1)
 		(uuid "9390fc20-5509-48ba-9e54-ff0d6ebf04ae")
 	)
 	(junction
@@ -2472,7 +2472,13 @@
 		(uuid "a545cf32-4f3c-4e90-a75a-0217816362fa")
 	)
 	(junction
-		(at 160.02 111.76)
+		(at 157.48 124.46)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "b42ab25c-374e-4f7c-a898-7fc713a60b4d")
+	)
+	(junction
+		(at 157.48 111.76)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "b608755b-5f6b-4a14-a794-0dadaa84d4e9")
@@ -2484,28 +2490,22 @@
 		(uuid "b728acc8-5e82-44ac-9c5d-9197fb5468bf")
 	)
 	(junction
-		(at 182.88 66.04)
-		(diameter 0)
-		(color 0 0 0 1)
-		(uuid "b7d40932-fd1a-4d37-a4ba-e1d029b053e3")
-	)
-	(junction
-		(at 182.88 38.1)
+		(at 71.12 111.76)
 		(diameter 0)
 		(color 255 0 0 1)
-		(uuid "bad5a9d6-c97b-406b-b0d6-ae89e96fd37d")
+		(uuid "b7e81c8c-6acc-419a-a523-e8a2a3550ad2")
 	)
 	(junction
-		(at 194.31 38.1)
+		(at 153.67 38.1)
 		(diameter 0)
 		(color 255 0 0 1)
-		(uuid "c0051413-1983-43bb-bebf-317fd9f85f14")
+		(uuid "c0d7d664-85e8-4561-998d-d249315fa15b")
 	)
 	(junction
-		(at 182.88 55.88)
+		(at 182.88 124.46)
 		(diameter 0)
 		(color 0 0 0 1)
-		(uuid "c5b6f043-4842-4ff5-be42-46ae6cfa464c")
+		(uuid "c67bdf48-a0ea-4d61-a807-dd829356f530")
 	)
 	(junction
 		(at 96.52 116.84)
@@ -2514,10 +2514,10 @@
 		(uuid "c9d3100e-8d48-4978-b569-7111ebf93905")
 	)
 	(junction
-		(at 153.67 38.1)
+		(at 55.88 121.92)
 		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "d19ed8cc-1f4a-4159-997f-5b5b94db1e54")
+		(color 0 0 0 1)
+		(uuid "e8f84aa1-3348-4c2b-a394-f12947e67a56")
 	)
 	(junction
 		(at 219.71 106.68)
@@ -2526,10 +2526,22 @@
 		(uuid "eae6f763-4918-4179-a182-49196e50b56e")
 	)
 	(junction
+		(at 81.28 121.92)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "f364623c-e257-4ac1-a780-0e3ab84b199b")
+	)
+	(junction
 		(at 96.52 124.46)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 0 0 0 1)
 		(uuid "f5904ee7-9443-490c-af52-0c8a41133df2")
+	)
+	(junction
+		(at 179.07 55.88)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "fbb1a581-b9a6-4f7b-84a6-aa3965e0fef7")
 	)
 	(wire
 		(pts
@@ -2586,17 +2598,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 121.92) (xy 190.5 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "24873ebb-fe5c-444a-a883-f4b3943f7dc8")
-	)
-	(wire
-		(pts
 			(xy 96.52 116.84) (xy 118.11 116.84)
 		)
 		(stroke
@@ -2604,6 +2605,17 @@
 			(type default)
 		)
 		(uuid "250068fb-db56-4f9b-adf0-715d7982e102")
+	)
+	(wire
+		(pts
+			(xy 157.48 124.46) (xy 182.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2b3ef78d-a3b0-4570-be11-600832905147")
 	)
 	(wire
 		(pts
@@ -2626,17 +2638,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "36fed2de-4d98-4c12-8eee-d89bb0f52b31")
-	)
-	(wire
-		(pts
-			(xy 160.02 121.92) (xy 182.88 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "38688c49-b731-4edd-8057-4549e7685bf3")
 	)
 	(wire
 		(pts
@@ -2683,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 111.76) (xy 172.72 111.76)
+			(xy 157.48 111.76) (xy 172.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2694,7 +2695,29 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 66.04) (xy 182.88 66.04)
+			(xy 179.07 55.88) (xy 179.07 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "47ef3e5f-4737-4840-8e25-bd5960e5be2a")
+	)
+	(wire
+		(pts
+			(xy 157.48 119.38) (xy 157.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "482e0575-fcd6-4b63-ad75-af89652de1b9")
+	)
+	(wire
+		(pts
+			(xy 151.13 66.04) (xy 179.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2702,6 +2725,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "487670f2-e323-460e-aca0-6688341727f9")
+	)
+	(wire
+		(pts
+			(xy 182.88 124.46) (xy 198.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "49f19957-f323-4499-944f-c029097682ff")
 	)
 	(wire
 		(pts
@@ -2727,7 +2761,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 55.88) (xy 182.88 55.88)
+			(xy 161.29 55.88) (xy 179.07 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2738,7 +2772,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 55.88) (xy 182.88 45.72)
+			(xy 179.07 55.88) (xy 179.07 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2781,14 +2815,25 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 121.92) (xy 81.28 121.92)
+			(xy 179.07 66.04) (xy 194.31 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "62ec3de3-c9c2-49d4-833f-24a025519861")
+		(uuid "618ee8f6-aed6-4ecb-8517-69d92bf88254")
+	)
+	(wire
+		(pts
+			(xy 179.07 38.1) (xy 194.31 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "620bda57-5e45-412e-a1d0-b3134dce3266")
 	)
 	(wire
 		(pts
@@ -2834,7 +2879,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 119.38) (xy 58.42 121.92)
+			(xy 55.88 119.38) (xy 55.88 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2886,17 +2931,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 121.92) (xy 190.5 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "7df8d6fb-74c2-472f-9d38-e64dc6f3308b")
-	)
-	(wire
-		(pts
 			(xy 134.62 38.1) (xy 151.13 38.1)
 		)
 		(stroke
@@ -2905,17 +2939,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "7e34f9f8-f035-464a-9532-00b11d3123e3")
-	)
-	(wire
-		(pts
-			(xy 182.88 55.88) (xy 182.88 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "819d2252-ce8d-4718-b323-55285834948c")
 	)
 	(wire
 		(pts
@@ -2941,17 +2964,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 38.1) (xy 194.31 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "8bfd3d73-9d72-4c05-b2c1-e8f3ba278749")
-	)
-	(wire
-		(pts
 			(xy 130.81 106.68) (xy 138.43 106.68)
 		)
 		(stroke
@@ -2970,17 +2982,6 @@
 			(type default)
 		)
 		(uuid "8df31571-9768-4f8c-97d9-95f786597424")
-	)
-	(wire
-		(pts
-			(xy 190.5 124.46) (xy 198.12 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "9bccabe2-1540-4860-aabf-e63d0a57480f")
 	)
 	(wire
 		(pts
@@ -3006,18 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 119.38) (xy 160.02 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "a7875865-6a68-4d72-a971-27bf5c5d7d53")
-	)
-	(wire
-		(pts
-			(xy 81.28 121.92) (xy 88.9 121.92)
+			(xy 55.88 121.92) (xy 81.28 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3093,7 +3083,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 111.76) (xy 71.12 111.76)
+			(xy 55.88 111.76) (xy 71.12 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3112,17 +3102,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "c5eadb3e-14ba-4703-ae74-56bc47cddb82")
-	)
-	(wire
-		(pts
-			(xy 182.88 66.04) (xy 194.31 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "caec80a4-1537-450e-9ee2-1e49ad2ffb2d")
 	)
 	(wire
 		(pts
@@ -3154,6 +3133,17 @@
 			(type default)
 		)
 		(uuid "d3eb6edc-2c23-4c62-821f-9a559394f39c")
+	)
+	(wire
+		(pts
+			(xy 81.28 121.92) (xy 88.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d61ffbbe-8ec3-4d37-ba55-7af7ce379e28")
 	)
 	(wire
 		(pts
@@ -3221,14 +3211,25 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 38.1) (xy 182.88 38.1)
+			(xy 182.88 121.92) (xy 182.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f6b36478-67fd-42c4-bb81-df5068c55bfe")
+	)
+	(wire
+		(pts
+			(xy 153.67 38.1) (xy 179.07 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 0 0 1)
 		)
-		(uuid "fced0452-796f-4b1f-9910-7c32eeef9a1d")
+		(uuid "f8f95d78-3158-40f7-845d-aabaabb1291c")
 	)
 	(label "3.3v"
 		(at 166.37 45.72 0)
@@ -3577,101 +3578,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TPS563200")
-		(at 81.28 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "244ca37e-1b6f-4902-9df8-2cc400b6018f")
-		(property "Reference" "U2"
-			(at 81.28 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS563200"
-			(at 81.28 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 82.55 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps563200.pdf"
-			(at 81.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
-			(at 81.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "117bca68-0dbf-489d-8c66-582ffd784cdb")
-		)
-		(pin "4"
-			(uuid "073cc702-b77b-433b-9072-93e98aea516a")
-		)
-		(pin "5"
-			(uuid "81d531dd-94f6-4e71-84ac-f9d7276f306a")
-		)
-		(pin "3"
-			(uuid "b7193487-e615-4ad7-919e-7c4db6c167dc")
-		)
-		(pin "2"
-			(uuid "34946892-aec1-4fe1-b19a-1ec3154d3926")
-		)
-		(pin "6"
-			(uuid "49b9b511-cc9e-4e4a-9744-57e30e0b8811")
-		)
-		(instances
-			(project "PlutoDX"
-				(path "/68463962-111b-48d5-8810-5302d4be8c60/4e510021-3686-45a7-a274-73efb12699e8"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
-		(at 160.02 111.76 0)
+		(at 157.48 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3682,7 +3590,7 @@
 		(fields_autoplaced yes)
 		(uuid "25a45492-552d-4718-a798-8df4659bcc23")
 		(property "Reference" "#PWR07"
-			(at 160.02 115.57 0)
+			(at 157.48 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3693,7 +3601,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 160.02 106.68 0)
+			(at 157.48 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3703,7 +3611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 111.76 0)
+			(at 157.48 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3714,7 +3622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 111.76 0)
+			(at 157.48 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,7 +3633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 160.02 111.76 0)
+			(at 157.48 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +3821,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 121.92 0)
+		(at 55.88 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3924,7 +3832,7 @@
 		(fields_autoplaced yes)
 		(uuid "35f95b6d-898a-49e6-aa10-97737143cdb1")
 		(property "Reference" "#PWR01"
-			(at 81.28 128.27 0)
+			(at 55.88 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3935,7 +3843,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 127 0)
+			(at 55.88 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3945,7 +3853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 121.92 0)
+			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3956,7 +3864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 121.92 0)
+			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,7 +3875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 121.92 0)
+			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +4145,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 115.57 0)
+		(at 157.48 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4248,7 +4156,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e624540-2521-4c82-b469-f95bdb8c8df3")
 		(property "Reference" "C5"
-			(at 163.83 114.2999 0)
+			(at 161.29 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4258,8 +4166,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 163.83 116.8399 0)
+		(property "Value" "25v 10uF"
+			(at 161.29 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4270,7 +4178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.9852 119.38 0)
+			(at 158.4452 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4281,7 +4189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 115.57 0)
+			(at 157.48 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4292,7 +4200,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 160.02 115.57 0)
+			(at 157.48 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,8 +4226,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:TPS565208")
+		(at 182.88 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50bf3d85-0c05-4cba-9c0b-d902ae975988")
+		(property "Reference" "U3"
+			(at 182.88 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS565208"
+			(at 182.88 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 184.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps565208.pdf"
+			(at 182.88 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
+			(at 182.88 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "982f45a3-7e07-4263-8d80-c59a890632f9")
+		)
+		(pin "3"
+			(uuid "6149248c-baf6-4a7f-a63f-0debcbe25e29")
+		)
+		(pin "2"
+			(uuid "23079048-94e1-45cb-a65e-1821b8094a32")
+		)
+		(pin "1"
+			(uuid "bc554041-d53c-4d90-a82f-e708dc841575")
+		)
+		(pin "4"
+			(uuid "6ba88b43-796c-4ac0-a858-940d0d4f9ab8")
+		)
+		(pin "5"
+			(uuid "0055dae3-c34a-4a38-9ff2-9cd4ebfc1277")
+		)
+		(instances
+			(project "PlutoDX"
+				(path "/68463962-111b-48d5-8810-5302d4be8c60/4e510021-3686-45a7-a274-73efb12699e8"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 58.42 115.57 0)
+		(at 55.88 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4330,7 +4331,7 @@
 		(fields_autoplaced yes)
 		(uuid "5646ac04-edb4-48eb-9dc8-06bfebb1b5bc")
 		(property "Reference" "C2"
-			(at 62.23 114.2999 0)
+			(at 59.69 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4340,8 +4341,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 62.23 116.8399 0)
+		(property "Value" "25v 10uF"
+			(at 59.69 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4352,7 +4353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.3852 119.38 0)
+			(at 56.8452 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4363,7 +4364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 115.57 0)
+			(at 55.88 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4374,7 +4375,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 58.42 115.57 0)
+			(at 55.88 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4401,7 +4402,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 182.88 41.91 0)
+		(at 179.07 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4412,7 +4413,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ab36231-998d-4ed5-832c-14cc06b9b8bd")
 		(property "Reference" "C1"
-			(at 186.69 40.6399 0)
+			(at 182.88 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4422,8 +4423,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 186.69 43.1799 0)
+		(property "Value" "25v 10uF"
+			(at 182.88 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4434,7 +4435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 183.8452 45.72 0)
+			(at 180.0352 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4445,7 +4446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 41.91 0)
+			(at 179.07 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4456,7 +4457,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 182.88 41.91 0)
+			(at 179.07 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4575,7 +4576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7da95ac3-ca7a-4824-b355-6057473fe9f4")
-		(property "Reference" "MPLCG0530L2R3"
+		(property "Reference" "MPLCG0530L2R2"
 			(at 215.9 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4637,7 +4638,7 @@
 		(instances
 			(project "PlutoDX"
 				(path "/68463962-111b-48d5-8810-5302d4be8c60/4e510021-3686-45a7-a274-73efb12699e8"
-					(reference "MPLCG0530L2R3")
+					(reference "MPLCG0530L2R2")
 					(unit 1)
 				)
 			)
@@ -5074,7 +5075,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 121.92 0)
+		(at 157.48 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5085,7 +5086,7 @@
 		(fields_autoplaced yes)
 		(uuid "a98d8f29-e022-4a10-8927-d1893282650a")
 		(property "Reference" "#PWR08"
-			(at 182.88 128.27 0)
+			(at 157.48 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5096,7 +5097,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 127 0)
+			(at 157.48 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5106,7 +5107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 121.92 0)
+			(at 157.48 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5117,7 +5118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 121.92 0)
+			(at 157.48 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5128,7 +5129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 121.92 0)
+			(at 157.48 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5145,99 +5146,6 @@
 			(project "PlutoDX"
 				(path "/68463962-111b-48d5-8810-5302d4be8c60/4e510021-3686-45a7-a274-73efb12699e8"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:TPS563200")
-		(at 182.88 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b18d4976-02ce-4b37-ae81-c7cdd7d49a93")
-		(property "Reference" "U3"
-			(at 182.88 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS563200"
-			(at 182.88 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 184.15 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps563200.pdf"
-			(at 182.88 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
-			(at 182.88 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02310012-16fb-4448-8d59-71ecfc881948")
-		)
-		(pin "4"
-			(uuid "2349afba-65dc-4ab2-9a57-c727b7dd16c2")
-		)
-		(pin "5"
-			(uuid "fc274d59-6861-416a-b5e7-55f67739129e")
-		)
-		(pin "3"
-			(uuid "7b371e89-4b77-45fa-8445-5c255c69e326")
-		)
-		(pin "2"
-			(uuid "58bc0579-f9b9-4726-8908-f24cc03b0209")
-		)
-		(pin "6"
-			(uuid "454e1c10-69f4-416e-99de-9bef7051295e")
-		)
-		(instances
-			(project "PlutoDX"
-				(path "/68463962-111b-48d5-8810-5302d4be8c60/4e510021-3686-45a7-a274-73efb12699e8"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5600,7 +5508,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse 4A"
+		(property "Value" "Polyfuse 5A"
 			(at 130.81 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5743,7 +5651,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 58.42 111.76 0)
+		(at 55.88 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5754,7 +5662,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea5a6aa7-732f-4933-bf3d-f22ae8283e62")
 		(property "Reference" "#PWR02"
-			(at 58.42 115.57 0)
+			(at 55.88 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5765,7 +5673,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 58.42 106.68 0)
+			(at 55.88 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5775,7 +5683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 111.76 0)
+			(at 55.88 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5786,7 +5694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 111.76 0)
+			(at 55.88 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5797,7 +5705,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 58.42 111.76 0)
+			(at 55.88 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5814,6 +5722,99 @@
 			(project "PlutoDX"
 				(path "/68463962-111b-48d5-8810-5302d4be8c60/4e510021-3686-45a7-a274-73efb12699e8"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:TPS565208")
+		(at 81.28 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe15ff33-cf31-4f9a-be20-29d8f92c4854")
+		(property "Reference" "U2"
+			(at 81.28 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS565208"
+			(at 81.28 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 82.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps565208.pdf"
+			(at 81.28 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
+			(at 81.28 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "0345fc17-6dde-4f5f-9eea-aab7b3624348")
+		)
+		(pin "3"
+			(uuid "ee517033-cfd2-49ed-991b-39c2370ebe7e")
+		)
+		(pin "2"
+			(uuid "9726568d-e57a-4f77-8724-5ba503747245")
+		)
+		(pin "1"
+			(uuid "b96db64e-baed-45b5-bd84-1fa21d826a12")
+		)
+		(pin "4"
+			(uuid "767cad35-0886-498e-8639-58904f7ab012")
+		)
+		(pin "5"
+			(uuid "42cea0f1-860d-485e-ae8b-a4762c5f9eaa")
+		)
+		(instances
+			(project "PlutoDX"
+				(path "/68463962-111b-48d5-8810-5302d4be8c60/4e510021-3686-45a7-a274-73efb12699e8"
+					(reference "U2")
 					(unit 1)
 				)
 			)
