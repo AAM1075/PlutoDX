@@ -429,7 +429,7 @@
         "uuid": "68463962-111b-48d5-8810-5302d4be8c60"
       }
     ],
-    "used_designators": "MPLCG0530L2R3,L1,D1,C1-7,R1-6,F1,U1-4,#PWR1-10,J1-2",
+    "used_designators": "MPLCG0530L2R3,L1,D1,C1-8,R1-18,F1,U1-4,#PWR1-12,J1-2",
     "variants": []
   },
   "sheets": [
@@ -440,6 +440,10 @@
     [
       "4e510021-3686-45a7-a274-73efb12699e8",
       "PlutoDX Power Supply"
+    ],
+    [
+      "f72091a7-8e64-415a-a5b1-f51043735ab8",
+      "PlutoDX SD to IDE Interface"
     ]
   ],
   "text_variables": {},
