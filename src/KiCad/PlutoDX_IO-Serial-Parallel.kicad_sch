@@ -1,0 +1,738 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b53e83f6-0afb-4c02-a8e7-ba0aba238ad3")
+	(paper "A4")
+	(title_block
+		(title "PlutoDX Serial & Parallel I/O")
+		(date "2026-08-28")
+		(rev "1.0")
+		(company "AAM1075")
+	)
+	(lib_symbols
+		(symbol "Interface_UART:MAX3232"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 28.575 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "MAX3232"
+				(at -2.54 26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "rs232 uart transceiver line-driver"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MAX3232_0_0"
+				(text "LOGIC"
+					(at -11.43 -22.86 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "RS232"
+					(at 11.43 -22.86 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "MAX3232_0_1"
+				(rectangle
+					(start -15.24 -25.4)
+					(end 15.24 25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.635) (xy -3.81 -4.445) (xy 0 -2.54) (xy -3.81 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -8.255 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.715) (xy -3.81 -9.525) (xy 0 -7.62) (xy -3.81 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy -8.255 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -12.7) (xy -8.255 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -17.78) (xy -8.255 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -12.7)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -17.78)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 6.35 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -10.795) (xy 1.905 -14.605) (xy -1.905 -12.7) (xy 1.905 -10.795)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -12.7) (xy 6.35 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -15.875) (xy 1.905 -19.685) (xy -1.905 -17.78) (xy 1.905 -15.875)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -17.78) (xy 6.35 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MAX3232_1_1"
+				(pin passive line
+					(at -20.32 22.86 0)
+					(length 5.08)
+					(name "C1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "VS+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 15.24 0)
+					(length 5.08)
+					(name "C1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 22.86 180)
+					(length 5.08)
+					(name "C2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 15.24 180)
+					(length 5.08)
+					(name "C2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "VS-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "T2OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -17.78 180)
+					(length 5.08)
+					(name "R2IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -17.78 0)
+					(length 5.08)
+					(name "R2OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "T2IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "T1IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -12.7 0)
+					(length 5.08)
+					(name "R1OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "R1IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "T1OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -30.48 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 30.48 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Interface_UART:MAX3232")
+		(at 147.32 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83c5defe-2eb1-4cf8-bd99-8a533ab37810")
+		(property "Reference" "U5"
+			(at 149.4633 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX3232"
+			(at 149.4633 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf"
+			(at 147.32 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "15"
+			(uuid "6af970be-33f4-458c-baba-df993ca4c19e")
+		)
+		(pin "10"
+			(uuid "c2874640-d43f-42b9-aa54-9c40e5199f02")
+		)
+		(pin "13"
+			(uuid "bc3a5c88-2efb-43cb-bcab-d33a3e686636")
+		)
+		(pin "14"
+			(uuid "b0ac33d9-88bc-4ece-9d07-bd1ac9523286")
+		)
+		(pin "9"
+			(uuid "37135c4d-237b-4518-a7ff-c069dca468a2")
+		)
+		(pin "12"
+			(uuid "ab47ae1f-81e2-45e3-add7-3db8b90c32c0")
+		)
+		(pin "11"
+			(uuid "5b60c451-7267-4152-9434-a3618e62a4e9")
+		)
+		(pin "8"
+			(uuid "8e485549-5166-4989-8411-9fdef994a471")
+		)
+		(pin "7"
+			(uuid "a035d0a8-2d11-4fff-bb68-6e3b6aa5daaf")
+		)
+		(pin "6"
+			(uuid "042414d8-3ec9-4322-a1c6-b0a18f6c04a9")
+		)
+		(pin "5"
+			(uuid "54ec033c-b182-434f-8848-96c564b1d335")
+		)
+		(pin "3"
+			(uuid "8cde0c73-74b5-4131-9ffd-5f52cfff9b53")
+		)
+		(pin "4"
+			(uuid "1482d092-dbe8-4302-8fe0-9ad672326bc2")
+		)
+		(pin "2"
+			(uuid "b3f11f3a-1ae7-4987-9b47-cd7a315e60b5")
+		)
+		(pin "1"
+			(uuid "694288d4-b8c2-420e-bbf0-51bc6c8d2814")
+		)
+		(pin "16"
+			(uuid "c6246257-1275-400b-aaec-ce3c5faed95c")
+		)
+		(instances
+			(project "PlutoDX"
+				(path "/68463962-111b-48d5-8810-5302d4be8c60/65cd2688-2218-4540-974f-ed4efec18224"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -9592,6 +9592,52 @@
 		)
 	)
 	(sheet
+		(at 24.13 81.28)
+		(size 27.94 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "32293a71-5de5-442b-9e27-7e1b10ff55ec")
+		(property "Sheetname" "PlutoDX Video"
+			(at 24.13 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PlutoDX_Video.kicad_sch"
+			(at 24.13 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PlutoDX"
+				(path "/68463962-111b-48d5-8810-5302d4be8c60"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.13 26.67)
 		(size 27.94 19.05)
 		(exclude_from_sim no)
@@ -9644,6 +9690,52 @@
 			(project "PlutoDX"
 				(path "/68463962-111b-48d5-8810-5302d4be8c60"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 106.68)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "65cd2688-2218-4540-974f-ed4efec18224")
+		(property "Sheetname" "PlutoDX Serial & Parallel IO"
+			(at 24.13 105.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PlutoDX_IO-Serial-Parallel.kicad_sch"
+			(at 24.13 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PlutoDX"
+				(path "/68463962-111b-48d5-8810-5302d4be8c60"
+					(page "5")
 				)
 			)
 		)
