@@ -429,7 +429,7 @@
         "uuid": "68463962-111b-48d5-8810-5302d4be8c60"
       }
     ],
-    "used_designators": "MPLCG0530L2R3,L1,D1,C1-8,R1-18,F1,U1-5,#PWR1-14,J1-3",
+    "used_designators": "MPLCG0530L2R3,L1,D1,C1-8,R1-18,F1,U1-6,#PWR1-14,J1-3",
     "variants": []
   },
   "sheets": [
@@ -443,11 +443,7 @@
     ],
     [
       "f72091a7-8e64-415a-a5b1-f51043735ab8",
-      "PlutoDX SD to IDE Interface"
-    ],
-    [
-      "32293a71-5de5-442b-9e27-7e1b10ff55ec",
-      "PlutoDX Video"
+      "PlutoDX Storage Interface"
     ],
     [
       "65cd2688-2218-4540-974f-ed4efec18224",
